@@ -1,1 +1,1 @@
-ln -sv “~/.dotfiles/system/.aliases” ~
+ln -sv ~/projects/git/dotfiles/system/.aliases ~
