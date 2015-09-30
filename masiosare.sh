@@ -1,2 +1,5 @@
 #!/bin/bash 
-ln -sv ~/projects/git/dotfiles/system/.aliases ~
+
+BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+ln -sfv ${BASEDIR}/system/aliases ~/.aliases
